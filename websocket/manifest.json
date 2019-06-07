@@ -1,0 +1,15 @@
+{
+  "name": "Websocket",
+  "description": "Websocket example",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": "Sebastian Matias Segura",
+  "browser_action": {
+    "default_icon": "images/icon_blue.png",
+    "default_title": "Websocket.io"
+  },
+  "permissions": ["notifications"],
+  "background": {
+    "scripts": ["js/background.js"]
+  }
+}
