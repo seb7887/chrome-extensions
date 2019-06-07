@@ -1,0 +1,23 @@
+{
+  "name": "IG Downloader",
+  "description": "Yet Another Instagram Photos Downloader Extension",
+  "author": "Sebastian Matias Segura",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "32": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "permissions": ["activeTab"]
+}
