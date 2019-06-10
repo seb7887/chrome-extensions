@@ -11,5 +11,12 @@
   "permissions": ["notifications"],
   "background": {
     "scripts": ["js/background.js"]
+  },
+  "options_page": "html/options.html",
+  "icons": {
+    "16": "images/icon_blue.png",
+    "32": "images/icon_blue.png",
+    "48": "images/icon_blue.png",
+    "128": "images/icon_blue.png"
   }
 }
