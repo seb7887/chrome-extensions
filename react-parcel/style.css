@@ -1,0 +1,54 @@
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 384px;
+}
+h1 {
+  font-family: "Menlo", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: #188287;
+}
+img {
+  width: 30px;
+}
+.modal-header {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
+.modal-content {
+  padding: 0 22px;
+}
+.modal-buttons {
+  border-top: 0.5px solid #dadada;
+  height: 50px;
+  width: 100%;
+}
+.logo {
+  padding: 16px;
+}
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 22px;
+}
+.btn {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background: #188287;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 65px;
+}

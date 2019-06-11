@@ -1,0 +1,27 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "description": "Quote of The Day Chrome Extension",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel watch src/index.js -d build/ -o index.js --no-source-maps",
+    "build": "parcel build src/index.js -d build/ -o index.js --no-source-maps"
+  },
+  "author": "Sebastian Matias Segura (@seb7887)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2",
+    "react-hot-loader": "^4.11.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
